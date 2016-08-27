@@ -30,4 +30,14 @@ describe('Roman Numeral Converter tests.', function() {
     });
   });
   
+  it('3', function() {
+    var app = RomanNumber(3);
+    expect(app.toString()).toEqual('III');
+  });
+  
+    it('3', function() {
+    var app = RomanNumber(3);
+    expect(app.toInt()).toEqual(3);
+  });
+  
 });
