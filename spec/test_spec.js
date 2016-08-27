@@ -12,6 +12,22 @@ describe('Roman Numeral Converter tests.', function() {
     expect(app).toEqual(jasmine.any(Object));
   });
   
+  [null, ''].forEach(function(value) {
+    it(value + ' should throw value required error', function() {
+      expect(function(){ RomanNumber(value); }).toThrow(new Error("value required"));
+    });
+  });
   
+  ['IIII', 'MMMMCMXCIX', 'MMMMDMXCIX', 'error', 'CD1X', '1473'].forEach(function(value) {
+    it(value + ' should throw invalid value', function() {
+      expect(function(){ RomanNumber(value); }).toThrow(new Error("invalid value"));
+    });
+  });
+  
+  [0, 10000].forEach(function(value) {
+    it(value + ' should throw invalid range', function() {
+      expect(function(){ RomanNumber(value); }).toThrow(new Error("invalid range"));
+    });
+  });
   
 });
