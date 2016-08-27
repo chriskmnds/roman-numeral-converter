@@ -1,0 +1,29 @@
+{
+  "name": "roman-numeral-converter",
+  "version": "0.0.1",
+  "description": "Node module for converting to/from Roman Numerals and numbers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "directories": {
+    "spec": "spec",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriskmnds/roman-numeral-converter.git"
+  },
+  "keywords": [
+    "roman-numeral-converter"
+  ],
+  "author": "Christos Koumenides",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chriskmnds/roman-numeral-converter/issues"
+  },
+  "homepage": "https://github.com/chriskmnds/roman-numeral-converter#readme",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
