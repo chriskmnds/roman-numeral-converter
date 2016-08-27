@@ -13,7 +13,7 @@ Node module for converting to/from Roman Numerals and numbers.
 
 3. Example use:
 
-In the directory where the repository was cloned:
+  In the directory where the repository was cloned:
 
   ```
   var RomanNumber = require('./roman-numeral-converter');
@@ -27,6 +27,6 @@ In the directory where the repository was cloned:
 
 ## Dev Notes
 
-Start: 15:00 GMT+3
+Start: ~14:30 GMT+3
 
-End: 
+End: 18:30 GMT+3
